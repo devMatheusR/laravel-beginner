@@ -12,13 +12,17 @@ class HelloController extends Controller
     }
 
     public function services(){
+
+        // Model - singular
+        // Service
+
+        // Table - plurar
+        // services
+
+
         $services = [
-            // 'Service 1',
-            // 'Service 2',
-            // 'Service 3',
-            // 'Service 4',
-            // 'Cool',
-            // 'Another cool service',
+            "Cool service", 
+            "Another cool service"
         ];
 
         return view(view: 'services', data: compact(var_name: 'services'));
