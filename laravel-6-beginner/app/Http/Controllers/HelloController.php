@@ -22,7 +22,9 @@ class HelloController extends Controller
 
         $services = [
             "Cool service", 
-            "Another cool service"
+            "Another cool service",
+            "Db connection",
+
         ];
 
         return view(view: 'services', data: compact(var_name: 'services'));
